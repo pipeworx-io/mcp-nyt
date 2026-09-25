@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-nyt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "NYT MCP — wraps The New York Times Developer APIs (developer.nytimes.com)",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-nyt": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "nyt"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-nyt"
+    "url": "git+https://github.com/pipeworx-io/mcp-nyt.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-a74a572a9318e69cf4d7c7be331d59d2aa85fd1e4abb085e3107d063175d60d4",
+    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
   }
 }
