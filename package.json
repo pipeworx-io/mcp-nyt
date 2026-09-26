@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-nyt",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "NYT MCP — wraps The New York Times Developer APIs (developer.nytimes.com)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-a74a572a9318e69cf4d7c7be331d59d2aa85fd1e4abb085e3107d063175d60d4",
-    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
+    "sourceHash": "v1-a5d7cb661ce5474fd7e6d32cdf47ed54c1f9350920de97ff619f2fff617e6b38",
+    "sourceCommit": "97740c6ee04c8acbfe7dddcacfde9e88ff2b9ca0"
   }
 }
