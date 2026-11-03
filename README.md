@@ -3,7 +3,7 @@
 New York Times Developer APIs: article search, top stories by section, bestseller
 lists and movie reviews, as headlines, abstracts, bylines and nytimes.com URLs.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1856+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1867+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
@@ -57,10 +57,10 @@ remove either mechanism without a fresh Bruce decision.
 
 ## Data sources
 
-- <https://api.nytimes.com/svc/search/v2/articlesearch.json> — Article Search.
-- <https://api.nytimes.com/svc/topstories/v2/{section}.json> — Top Stories.
-- <https://api.nytimes.com/svc/books/v3/lists/current/{list}.json> — Books.
-- <https://api.nytimes.com/svc/movies/v2/reviews/search.json> — Movie Reviews.
+- Nytimes — Article Search.
+- Nytimes — Top Stories.
+- Nytimes — Books.
+- Nytimes — Movie Reviews.
 - <https://developer.nytimes.com/> — portal, terms (`/terms`), attribution
   guide (`/branding`), FAQ (`/faq`).
 
@@ -108,7 +108,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1856+ data sources. The
+Both URLs reach the same gateway and the same 1867+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 

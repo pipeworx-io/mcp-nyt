@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-nyt",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "NYT MCP — wraps The New York Times Developer APIs (developer.nytimes.com)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "nyt",
     "gatewaySlug": "nyt",
-    "sourceHash": "v1-35b66a755b4e8dabb1ddaaf8ddc63128cf66d8d87fda2a0717007ca40bc83ce0",
-    "sourceCommit": "b2c4383545bb35171d0ada2beb1c9c7168ea175e"
+    "sourceHash": "v1-61cf0ff9c4f7051e4a3c536ed6170d3e957a306b327980710b740c578f8792b0",
+    "sourceCommit": "bed7faa04e7276899b5e3870ef11c98625371f2b"
   }
 }
